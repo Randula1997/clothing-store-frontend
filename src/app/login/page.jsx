@@ -19,9 +19,9 @@ const Login = () => {
                     <h2 className='text-[2rem] font-bold pb-1'>Hello</h2>
                     <p className='text-[#9B9B9B] pb-5'>Sign in to company or <span className='underline cursor-pointer'><Link href="/signup">create an account</Link></span></p>
                     <div className='flex flex-col justify-center items-center gap-4'>
-                        <Input inputType="text" inputPlaceholder="Email or Username"/>
-                        <Input inputType="password" inputPlaceholder="Password"/>
-                        <Button btnName="Continue" btnType="button"/>
+                        <Input inputWidth="w-full" inputType="text" inputPlaceholder="Email or Username"/>
+                        <Input inputWidth="w-full" inputType="password" inputPlaceholder="Password"/>
+                        <Button btnWidth="w-full" btnName="Continue" btnType="button"/>
                     </div>
                     <p className='text-[#9B9B9B] py-4'>Or</p>
                     <div className='flex flex-row justify-center items-center gap-6'>
