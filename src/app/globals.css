@@ -8,6 +8,7 @@
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -39,3 +40,37 @@ body {
     text-wrap: balance;
   }
 }
+
+::-webkit-scrollbar{
+  width: 0.5em;
+}
+
+::-webkit-scrollbar-track{
+  margin-left: 20px;
+  background-color: transparent;
+  border-radius: 100vw;
+  margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #e7e7e7;
+  border-radius: 100vw;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #c2c2c2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

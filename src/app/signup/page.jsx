@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import bg_signup from '../../assets/images/signup_bg.png';
 import fbIcon from '../../assets/images/fb_icon.png';
 import googleIcon from '../../assets/images/google_icon.png';
@@ -20,10 +19,10 @@ const Login = () => {
                     <h2 className='text-[2rem] font-bold pb-1 max-sm:text-[1.5rem]'>Create an account</h2>
                     <p className='text-[#9B9B9B] pb-5'>Already a member ? <span className='underline cursor-pointer'><Link href="/login">sign in</Link></span></p>
                     <div className='flex flex-col justify-center items-center gap-4'>
-                        <Input inputType="text" inputPlaceholder="User name"/>
-                        <Input inputType="email" inputPlaceholder="Email"/>
-                        <Input inputType="password" inputPlaceholder="Password"/>
-                        <Button btnName="Continue" btnType="button"/>
+                        <Input inputWidth="w-full" inputType="text" inputPlaceholder="User name"/>
+                        <Input inputWidth="w-full" inputType="email" inputPlaceholder="Email"/>
+                        <Input inputWidth="w-full" inputType="password" inputPlaceholder="Password"/>
+                        <Button btnWidth="w-full" btnName="Continue" btnType="button"/>
                     </div>
                     <p className='text-[#9B9B9B] py-4'>Or</p>
                     <div className='flex flex-row justify-center items-center gap-6'>
