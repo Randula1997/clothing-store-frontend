@@ -1,6 +1,6 @@
 import React from "react";
 import Image from 'next/image';
-import videoIcon from '../../assets/images/video_icon.png';
+import videoIcon from '../../../assets/images/video_icon.png';
 
 function CompanyInfoText() {
   return (
