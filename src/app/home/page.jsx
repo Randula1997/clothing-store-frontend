@@ -5,7 +5,7 @@ import Image from "next/image";
 import TextCategory from "../(components)/(Category)/TextCategory";
 import Button from "../(components)/(Button)/Button";
 import Link from "next/link";
-import SubNavbar from "../(components)/(Navbar)/SubNavbar";
+import HomeNavbar from "../(components)/(Navbar)/HomeNavbar";
 
 function page() {
   return (
@@ -14,7 +14,7 @@ function page() {
         className="bg-cover bg-center h-screen w-full"
         style={{ backgroundImage: `url(${bg_login.src})` }}
       >
-        <SubNavbar />
+        <HomeNavbar />
         <div className="flex justify-center items-center h-screen w-full absolute top-0">
           <div className="py-10 px-14 rounded-3xl text-center relative max-md:w-full max-sm:px-10">
             <h2 className="text-[2rem] font-bold pb-4 max-sm:text-3xl">
@@ -30,19 +30,22 @@ function page() {
             </div>
             <div className="max-w-full bg-transparent flex justify-center items-center gap-4 rounded-full p-3 max-sm:w-full max-sm:hidden">
               <TextCategory
-                btnCategoryName="Clothes"
-                btnCategoryBgColor="bg-[#f4f4f494]"
+                categoryName="Clothes"
+                categoryBgColor="bg-[#f4f4f494]"
+                categoryBoxShadow="[box-shadow:0_5px_15px_rgba(0,0,0,0.1)]"
               />
               <TextCategory
-                btnCategoryName="Shoes"
-                btnCategoryBgColor="bg-[#f4f4f494]"
+                categoryName="Shoes"
+                categoryBgColor="bg-[#f4f4f494]"
+                categoryBoxShadow="[box-shadow:0_5px_15px_rgba(0,0,0,0.1)]"
               />
               <TextCategory
-                btnCategoryName="Jewelry"
-                btnCategoryBgColor="bg-[#f4f4f494]"
+                categoryName="Jewelry"
+                categoryBgColor="bg-[#f4f4f494]"
+                categoryBoxShadow="[box-shadow:0_5px_15px_rgba(0,0,0,0.1)]"
               />
               <Link href="/">
-                <div className="relative w-fit px-10 py-2.5 bg-[#f4f4f494] text-[#9B9B9B] rounded-full mr-2 max-md:hidden cursor-pointer">
+                <div className="relative w-fit px-10 py-2.5 bg-[#f4f4f494] text-[#9B9B9B] rounded-full mr-2 max-md:hidden cursor-pointer [box-shadow:0_5px_15px_rgba(0,0,0,0.1)]">
                   <Image
                     src={nextIcon}
                     width={28}

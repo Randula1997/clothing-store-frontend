@@ -3,12 +3,13 @@ import MainNavbar from "./(components)/(Navbar)/MainNavbar";
 import TextCategorySlider from "./(components)/(Slider)/TextCategorySlider";
 import AdsSlider from "./(components)/(Slider)/AdsSlider";
 import ImageCategorySlider from "./(components)/(Slider)/ImageCategorySlider";
-import BodyContent from "./(components)/(BodyContent)/BodyContent";
+import MainBodyContent from "./(components)/(BodyContent)/MainBodyContent";
+import OfferNavbar from "./(components)/(Navbar)/OfferNavbar";
 
 function page() {
   return (
     <>
-        <BodyContent>
+        <MainBodyContent>
           <MainNavbar />
           <TextCategorySlider />
           <AdsSlider />
@@ -16,7 +17,8 @@ function page() {
             All categories
           </div>
           <ImageCategorySlider />
-        </BodyContent>
+          <OfferNavbar/>          
+        </MainBodyContent>
     </>
   );
 }

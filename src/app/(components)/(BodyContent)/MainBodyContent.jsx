@@ -1,6 +1,6 @@
 import React from "react";
 
-function BodyContent(props) {
+function MainBodyContent(props) {
   return (
     <div className="max-w-7xl m-auto bg-cover bg-center h-screen w-[90%]">
       {props.children}
@@ -8,4 +8,4 @@ function BodyContent(props) {
   );
 }
 
-export default BodyContent;
+export default MainBodyContent;

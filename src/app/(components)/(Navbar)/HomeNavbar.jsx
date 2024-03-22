@@ -5,7 +5,7 @@ import Link from "next/link";
 import Button from "../(Button)/Button";
 import NavItem from "./NavItem";
 
-function SubNavbar() {
+function HomeNavbar() {
   const countries = [
     "France",
     "United States",
@@ -230,4 +230,4 @@ function SubNavbar() {
   );
 }
 
-export default SubNavbar;
+export default HomeNavbar;

@@ -38,6 +38,10 @@
   background: #c2c2c2;
 }
 
+#TextCategoryContainer::-webkit-scrollbar{
+  display: none;
+}
+
 .img {
   width: 100%;
   background-size: cover;
