@@ -21,6 +21,7 @@ function TextCategorySlider() {
           <TextCategory categoryName="Cosmetics" categoryBgColor="bg-[#ffffff]" categoryBoxShadow="[box-shadow:0_5px_15px_rgba(0,0,0,0.1)]" />
         </div>        
       </CategoryBodyContent>
+
   );
 }
 

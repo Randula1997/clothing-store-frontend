@@ -5,6 +5,7 @@ import AdsSlider from "./(components)/(Slider)/AdsSlider";
 import ImageCategorySlider from "./(components)/(Slider)/ImageCategorySlider";
 import MainBodyContent from "./(components)/(BodyContent)/MainBodyContent";
 import OfferNavbar from "./(components)/(Navbar)/OfferNavbar";
+import ItemCardSlider from "./(components)/(Slider)/ItemCardSlider";
 
 function page() {
   return (
@@ -17,7 +18,8 @@ function page() {
             All categories
           </div>
           <ImageCategorySlider />
-          <OfferNavbar/>          
+          <OfferNavbar/>
+          <ItemCardSlider/>
         </MainBodyContent>
     </>
   );
