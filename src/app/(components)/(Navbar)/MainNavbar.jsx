@@ -80,7 +80,7 @@ function MainNavbar() {
   return (
     <>
       <nav className="z-50 max-md:bg-[rgba(255,255,255,0.1)] max-md:backdrop-filter max-md:backdrop-blur-[5px] relative m-auto">
-        <div className="mx-auto py-8 pb-3">
+        <div className="mx-auto pt-8 pb-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center max-sm:hidden">
               <div className="flex-shrink-0">
